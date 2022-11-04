@@ -11,7 +11,7 @@ def lambda_handler(event, context):
     response = {}
     response['Timestamp'] = datetime.datetime.now().strftime("%Y-%m-%d %H-%M-%S")
     response['Message'] = "Request Processing Successful - Pipeline Testing - Tiru"
-    print("hi this is github")
+    print("hi this is github ")
     return {
         'statusCode': 200,
         'headers': {
